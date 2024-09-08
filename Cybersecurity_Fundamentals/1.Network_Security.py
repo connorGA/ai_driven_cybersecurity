@@ -115,3 +115,39 @@
             # Cost. An IPS is more expensive than an IDS, as it does more work and offers more protection
         #IDS & IPS Working Together:
             # Many companies avoid the IDS vs. IPS problem by deploying both solutions to protect their assets and servers
+
+#5. Network Segmentation ******************************************************************************************************************************************************************************************
+    # Network Segmentation divides a network into smaller parts to control traffic flow and improve security
+    # Key Points:
+        # Segmentation Methods:
+            # Physical Segmentation: Using physical devices like routers and switches to create separate networkls
+            # Virtual LANs (VLANs): Logical segmentation within the same physical network 
+            # Micro-Segmentation: Using software-defined networking (SDN) to isolate workload
+
+    # Network Segmentation vs microsegmentation:
+        # Microsegmentation takes a more granular approach to segmenting networks through virtual local-area networks(VLANs) and access control lists.
+        # Microsegmentation builds smaller, more secure zones on a network, enabling the organization to create policies that minimize flows between workloads
+    # Network Segmentation vs Internal segmentation:
+        # Traditionally, network segmentation was relatively simple, with organizations using static IP addresses and ingress and egress ports that made the process easy to define.
+        # However, with the growth of distributed networks and multi-cloud environments, IP addresses are constantly changing.
+        # Internal segmentation enables organizations to segment their network and infrastructure assests regardless of their location and whether they are on-premises or on multiple cloud environments. 
+    # Network Segmentation vs intent-based segmentation:
+        # Intent-based segmentation is a more advanced form of network segmentation that uses automation and orchestration to enforce policies across the network.
+        # Intent-based segmentation enables organizations to define policies based on the intent of the network, rather than the technical details of the network itself.
+        # Intent-based segmentation enables them to detect and mitigate advanced threats and grant variable access on a need-to-know basis 
+        # intenr-based segmentation covers an entire network and its assets, including all endpoints and devices  
+    # Network Segmentation vs Zero Trust:
+        # Zero Trust is a security model that assumes all users, devices, and applications are untrusted and must be verified before being granted access to the network.
+        # Zero Trust is a more comprehensive approach to network security than network segmentation, as it requires organizations to verify all users and devices before granting access to the network.
+        # Zero Trust also requires organizations to continuously monitor and analyze network traffic to detect and respond to potential threats in real time.
+        # Network segmentation is a key component of Zero Trust, as it enables organizations to create secure zones within the network that can be isolated from other parts of the network.
+    
+    # Benefits of Network Segmentation:
+        # Security: improves security by preventing attacks from spreading across a network and infiltrating unprotected devices.
+        # Performance: reduces the congestion that often results in performance drop off 
+        # Monitoring and response: makes it easier to monitor and respond to security incidents by isolating affected devices and networks
+
+    # Types of Network Segmentation:
+        # Physical Segmentation: Uses physical devices like routers and switches to create separate networks
+        # Virtual LANs(VLANs): Logical segmentation within the same physical network
+        # Micro-Segmentation: Uses software-defined networking(SDN) to isolate workloads
