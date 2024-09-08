@@ -88,3 +88,30 @@
             # The software uses pre-shared certificates, secret keys, and usernames and passwords to authenticate every device or server
             # It uses the open secure sockets layer encryption library and TLS, in addition to a custom protocol utilizing SSL/TLS for a key exchange.
 
+#4. Intrusion Detection Systems (IDS) and Intrusion Prevention Systems (IPS) ******************************************************************************************************************************************************************************************
+    # IDS AND IPS are network security technologies that monitor network traffic for suspicious activity 
+    # Key Points:
+        # Intrusion Detection System(IDS): Monitors and alerts on suspicious traffic but doesn't block the traffic
+        # Intrusion Prevention System(IPS): Actively blocks or rejects malicious traffic based on security rules
+        # Types of IDS and IPS:
+            # Network-based IDS(NIDS): Monitors network traffic for suspicious activity
+            # Host-based IDS(HIDS): Monitors activity on individual devices for suspicious activity
+            # Signature-based Detection: Compares traffic to known attack signatures
+            # Anomaly-based Detection: Monitors traffic for deviations from normal behavior
+            # Inline and Passive Systems: Inline systems actively block traffic, while passive systems only monitor and alert
+    
+    # IDS vs IPS: Definitions, Comparisons, and Why You Need Both:
+        # An intrusion detection system (IDS) monitors traffic on your network, analyzes that traffic for signatures matching know attacks, and when something suspicious happens, you're alerted. In the meantime, traffic keeps flowing.
+        # An intrusion prevention system (IPS) also monitors traffic. But when something unusual happens, the traffic stops altogether until you investigate and decide to open the floodgates again.
+        # Both systems can: 
+            # Monitor. After setup, these programs can look over traffic within parameters you set, and they will work until you turn them off
+            # Alert. Both programs will send a notification to those you specify when a problem has been spotted
+            # Learn. Both can use machine learning to understand patterns and emerging threats
+            # Log. Both will keep records of attacks and responses, so you can adjust your protections accordingly
+        # Differences:
+            # Response. An IDS is passive, while an IPS is an active control system. You must take action after an IDS alerts you, as your system is still under attack
+            # Protection. Arguably, an IDS offers less help when you're under threat. You must figure out what to do, when to do it, and how to clean up the mess. An IPS does all of this for you.
+            # False positives. If an IDS gives you an alert about something that isn't troublesome at all, you're the only one inconvenienved. If an IPS shuts down traffic, many people are impacted
+            # Cost. An IPS is more expensive than an IDS, as it does more work and offers more protection
+        #IDS & IPS Working Together:
+            # Many companies avoid the IDS vs. IPS problem by deploying both solutions to protect their assets and servers
