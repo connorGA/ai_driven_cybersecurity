@@ -177,3 +177,12 @@
             # The server decrypts the client communication with its private key, and the session is established
             # The session key(symmetric encryption) is now used to encrypt and decrypt data transmitted between the client and server
 
+#7. Common Network Attack Vectors ******************************************************************************************************************************************************************************************
+    # Understanding common network attack vectors is essential for protecting your network from security threats
+    # Key Points:
+        # Common Network Attack Vectors:
+            # Phishing: Social engineering attack aimed at stealing credentials or sensitive information
+            # DDoS(Distributed Denial of Service): Overwhelming a netwrork or service with traffic to make it unavailable
+            # Man-in-the-Middle: Intercepting and altering communication between two parties
+            # Ransomware: Encrypting data and demanding a ransom for its release
+    
