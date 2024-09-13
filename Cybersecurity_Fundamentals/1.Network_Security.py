@@ -151,3 +151,29 @@
         # Physical Segmentation: Uses physical devices like routers and switches to create separate networks
         # Virtual LANs(VLANs): Logical segmentation within the same physical network
         # Micro-Segmentation: Uses software-defined networking(SDN) to isolate workloads
+
+#6. Network Security Protocols ******************************************************************************************************************************************************************************************
+    # Network security protocols are used to secure data transmitted over a network and protect against unauthorized access
+
+    # Key Points:
+        # TLS/SSL (Transport Layer Security/Secure Sockets Layer): Encrypts data for secure communication over the internet(e.g, HTTPS)
+        # IPsec (Internet Protocol Security): Provides secure communication over IP networks throuhg encryption and authentication
+        # SSH(secure shell): Allows Secure remote access to network devices and servers
+
+    # What is SSL/TLS Encryption:
+        # SSL/TLS encrypts communications between a client and server, primarily web browsers and web sites/applications
+        # SSL(Secure sockets layer) encryption, and its more modern and secure replacement, TLS(Transport layer security) encryption, protect data sent over the internet or a computer network
+
+    # How SSL/TLS Works:
+        # SSL/TLS uses a combination of asymmetric and symmetric encryption to secure data transmitted over a network
+            # asymmetric encryption: uses a pair of keys to encrypt and decrypt data, used to establish a secure session between a client and server
+            # symmetric encryption: uses a single key to encrypt and decrypt data, used to exchange data within a secured session
+        # SSL/TLS Handshake:
+            # The client contacts the server using a secure URL (https://)
+            # The server sens the client its certificate, which contains the server's public key
+            # The client verifies this with a Trusted Root Certification Authority to ensure certificate is legitimate
+            # The client and server negotiate the strongest type of encryption that each can support
+            # The clients encrypts a session(secret) key with the server's public key, and sends it back to the server
+            # The server decrypts the client communication with its private key, and the session is established
+            # The session key(symmetric encryption) is now used to encrypt and decrypt data transmitted between the client and server
+
