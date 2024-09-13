@@ -185,4 +185,30 @@
             # DDoS(Distributed Denial of Service): Overwhelming a netwrork or service with traffic to make it unavailable
             # Man-in-the-Middle: Intercepting and altering communication between two parties
             # Ransomware: Encrypting data and demanding a ransom for its release
-    
+
+#8. Zero Trust Architecture ******************************************************************************************************************************************************************************************
+    # Zero Trust is a security model that assumes that threats can come from both inside and outside the network, so no traffic is trusted by default
+    # Key Points:
+        # Principles: Continuous verification, least privilege access, and micro-segmentation
+        # Benefits: Improved security, reduced risk, and better compliance
+
+    # Zero Trust Architecture:
+        # Zero Trust is a strategic approach to cybersecurity that secures an organization by eliminating implicit trsut and continuously validating every stage of a digital interaction
+        # Users: step one of any Zero Trust effort requires strong authentication of user identity, application of "least access" policies, and verification of user device integrity
+        # Applications: applying Zero Trust to applications removes implicit trust with various components of applications when they talk to each other. A fundamental concept is that applications cannot be trusted and continuous monitoring at runtime is necessary to validate their behavior
+        # Infrastructure: everything infrastructure-related - routers, switches, cloud, IoT, and supply chain - must be addressed with a Zero Trust Approach
+
+    # Zero Trust Architecture FAQs:
+        # What is continuous verification in Zero Trust?
+            # A core principle of Zero Trust that involves constantly evaluating and authorizing every access request based on real-time factors such as user identity, device security posture, and contextual information
+        # How does Zero Trust implement least privilege access?
+            # Zero Trust implements least privelege access by granting users and devices the minimum level of permissions necessary to perform their tasks, thereby restericting access to only the resources they need
+        # What does 'assume breach' mean in the context of Zero Trust?
+            # 'Assume breach' means that Zero Trust operates under the assumption that breaches can occur both inside and outside the network. The principle emphasizes the need for continuous monitoring and verification to mitigate the impact of potential security incidents
+        # What does continuous monitoring and management entail in a Zero Trust model?
+            # Involves constantly tracking access policies, user behavior, and potential threats to ensure ongoing security and compliance
+        # Does MPLS inherently provide encryption for data in transit?
+            # No, MPLS itself does not inherently provide encryption for data in transit. Additional security measures like IPsec(internet protocol security) can be implemented to ensure data confidentiality and integrity
+        # How can MPLS be used in cloud environments securely?
+            # MPLS can be used in cloud environments to provide secure and reliable communication between on premises and cloud resources. Implementing Zero Trust principles within the cloud environment is crucial to maintain security and access control
+
